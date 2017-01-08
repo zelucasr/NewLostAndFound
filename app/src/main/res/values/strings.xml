@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">NewLostAndFound</string>
+    <string name="title_activity_menu">MenuActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string-array name="itens">
+        <item>ELETRÔNICOS</item>
+        <item>ESCOLAR</item>
+        <item>PESSOAL</item>
+    </string-array>
+
+    <string-array name="local">
+        <item>IMD</item>
+        <item>CB</item>
+        <item>CET</item>
+        <item>BCZM</item>
+        <item>REITORIA</item>
+        <item>SETOR 1</item>
+        <item>SETOR 2</item>
+        <item>SETOR 3</item>
+        <item>SETOR 4</item>
+        <item>SETOR 5</item>
+    </string-array>
+    <string name="title_activity_principal">PrincipalActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_remover_objeto">RemoverObjetoActivity</string>
+
+
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <TabHost android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/tabHost"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        tools:context="br.ufrn.stronda.newlostandfound.Activity.ObjetosCadastradosActivity">
+
+        <TabWidget
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@android:id/tabs"
+            android:background="@color/colorPrimary"
+
+            />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@android:id/tabcontent"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/Achados"
+                android:paddingTop="45dp"
+                android:orientation="horizontal"
+                >
+                <ListView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/perfilAchados"
+                    android:background="@color/colorbg">
+                </ListView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/Perdidos"
+                android:paddingTop="45dp"
+                android:orientation="horizontal">
+                <ListView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/perfilPerdidos"
+                    android:background="@color/colorbg">
+                </ListView>
+
+            </LinearLayout>
+        </FrameLayout>
+    </TabHost>

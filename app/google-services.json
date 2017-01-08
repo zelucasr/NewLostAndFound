@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "170300545501",
+    "firebase_url": "https://achados-e-perdidos-5f077.firebaseio.com",
+    "project_id": "achados-e-perdidos-5f077",
+    "storage_bucket": "achados-e-perdidos-5f077.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170300545501:android:004d98cd66c8b0b1",
+        "android_client_info": {
+          "package_name": "br.ufrn.stronda.newlostandfound"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170300545501-ql7dc58em01jcidn24te2lk6n5hocpcr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.ufrn.stronda.newlostandfound",
+            "certificate_hash": "8874DEFEF63603B39DA7AA911FD4F8E92B3FDF94"
+          }
+        },
+        {
+          "client_id": "170300545501-odb74lt2vftok62n5nu4oigle5qimi1p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmMuXCTsJ0rBjCQW5OJXTlzKc9bh7C08Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170300545501-odb74lt2vftok62n5nu4oigle5qimi1p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
